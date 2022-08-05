@@ -324,7 +324,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
@@ -810,6 +810,10 @@ body[data-theme="dark"] .text-muted {
   margin-top: -67rem !important;
 }
 
+.margin-top-mines-122 {
+  margin-top: -122rem !important;
+}
+
 .margin-top-mines-2 {
   margin-top: -2.4rem !important;
 }
@@ -853,6 +857,10 @@ body[data-theme="dark"] .text-muted {
 
   .margin-top-mines-hidden {
     margin-top: 0 !important;
+  }
+
+  .experience .item .title {
+    font-size: 16px;
   }
 }
 
