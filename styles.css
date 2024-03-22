@@ -822,6 +822,10 @@ body[data-theme="dark"] .text-muted {
   margin-top: -3.8rem !important;
 }
 
+.margin-top-mines-29 {
+  margin-top: -29.4rem !important;
+}
+
 @media (max-width: 767.98px) {
   .header {
     text-align: center;
