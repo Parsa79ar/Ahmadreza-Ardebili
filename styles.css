@@ -174,7 +174,7 @@ a.dotted-link:hover {
 
 .section .heading {
   margin-top: 0;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: #545e69;
   font-size: 27px;
 }
@@ -806,12 +806,12 @@ body[data-theme="dark"] .text-muted {
   float: left !important;
 }
 
-.margin-top-mines-80 {
-  margin-top: -80.3rem !important;
+.margin-top-mines-54 {
+  margin-top: -54rem !important;
 }
 
-.margin-top-mines-157 {
-  margin-top: -157rem !important;
+.margin-top-mines-498 {
+  margin-top: -498rem !important;
 }
 
 .margin-top-mines-2 {
@@ -823,7 +823,7 @@ body[data-theme="dark"] .text-muted {
 }
 
 .margin-top-mines-29 {
-  margin-top: -29.4rem !important;
+  margin-top: -29.55rem !important;
 }
 
 @media (max-width: 767.98px) {
