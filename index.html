@@ -29,7 +29,7 @@
     
 </head> 
 
-<body data-theme="dark">
+<body>
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">     
@@ -54,8 +54,8 @@
 							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
 						</div>
 			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-primary" href="https://t.me/parsa7994" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
-	                <a class="btn btn-cta-secondary" href="https://cv.ahmadreza-ardebili.ir" target="_blank"><i class="fas fa-file"></i> Persian CV</a>        
+	                <a class="btn btn-cta-secondary" href="https://t.me/parsa7994" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
+	                <a class="btn btn-cta-primary" href="https://cv.ahmadreza-ardebili.ir" target="_blank"><i class="fas fa-file"></i> Persian CV</a>        
 	            </div><!--//col-->
 	        </div><!--//row-->         
         </div><!--//container-->
@@ -90,7 +90,7 @@
                         </div><!--//item-->
                         <div class="item">
                         <div class="item">
-                            <h3 class="title">Full Stack Web Developer - <span class="place"><a href="#">Islamic Parliament Research Center (IPRC) </a></span> <span class="year"><br>(Jul 2023 - Present) .Part-time .Remote - </span><span class="place"><a href="https://rc.majlis.ir" target="_blank"> www.rc.majlis.ir</a></span></h3>
+                            <h3 class="title">Full Stack Web Developer - <span class="place"><a href="#">Islamic Parliament Research Center (IPRC) </a></span> <span class="year"><br>(July 2023 - August 2024) .Part-time .Remote - </span><span class="place"><a href="https://rc.majlis.ir" target="_blank"> www.rc.majlis.ir</a></span></h3>
                         </div><!--//item-->
                         <div class="item">
                             <h3 class="title">Full Stack Web Developer - <span class="place"><a href="#">Oxin Rayan Arvand</a></span> <span class="year">(2020 - 2023) - </span><span class="place"><a href="https://smtz.ir" target="_blank"> www.smtz.ir</a></span></h3>
@@ -105,15 +105,15 @@
                 </div><!--//section-inner-->                 
             </section>
             
-            <div class="col-md-4 margin-top-mines-29">
+            <div class="col-md-4 margin-top-mines-29 margin-top-mines-hidden">
                 <aside class="info aside section">
                     <div class="section-inner shadow-sm rounded">
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li><i class="fas fa-map-marker-alt"></i>Shiraz, Iran (Islamic Republic of)</li>
                                 <li><i class="fas fa-envelope"></i><a href="mailto:parsa.ardebili@gmail.com" target="_blank">parsa.ardebili@gmail.com</a></li>
+                                <li><i class="fab fa-github-alt"></i><a href="https://github.com/Parsa79ar/" target="_blank">https://github.com/Parsa79ar</a></li>
                                 <li><i class="fas fa-link"></i><a href="https://parsa-ardebili.ir" target="_blank">https://parsa-ardebili.ir</a></li>
-                                <li><i class="fas fa-link"></i><a href="https://ahmadreza-ardebili.ir" target="_blank">https://ahmadreza-ardebili.ir</a></li>
                             </ul>
                         </div> 
                     </div>                
@@ -152,7 +152,7 @@
                                 </div><!--//item-->
                                 
                                 <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in javascript and jQuery (ajax)"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
+                                    <h3 class="level-title">Javascript &amp; Vue.js &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in javascript and jQuery (ajax)"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
                                     <div class="level-bar progress">
                                         <div class="progress-bar level-bar-inner" role="progressbar" style="width: 65%" aria-valuenow="65"  aria-valuemin="0" aria-valuemax="65"></div>
                                     </div><!--//level-bar-->                                   
@@ -214,9 +214,10 @@
                                     </div><!--//level-bar-->                                  
                                 </div><!--//item-->
 
-                                <p><a class="more-link" target="_blank" href="https://github.com/Parsa79ar/"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p> 
+                                <!-- <p><a class="more-link" target="_blank" href="https://github.com/Parsa79ar/"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>  -->
                             </div>              
-                        </div><!--//content-->  
+                        </div><!--//content--> 
+                        <hr class="divider" />
                     </div><!--//section-inner-->                 
                 </aside>
 
@@ -253,217 +254,300 @@
                 </aside>
             </div>
 
-            <section class="latest section col-md-8 margin-top-mines-54 margin-top-mines-hidden">
+            <section class="latest section col-md-8 margin-top-mines-52 margin-top-mines-hidden">
                 <div class="section-inner shadow-sm rounded">
                     <h2 class="heading">Latest Projects</h2>
-                    <hr class="divider" />
-                    <div class="content"> 
+                    <hr class="divider" style="margin-bottom: 25px;" />
+                    <div class="content row"> 
 
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="https://urskin.ir" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="urskin.ir.png" alt="Urskin" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://urskin.ir" target="_blank">Urskin - Online Beauty Retailer - www.urskin.ir</a></h3>
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://urskin.ir" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="urskin.ir.png" alt="Urskin" />
+                                    </a>
+                                </div>
                                 
-                            <div class="desc text-start">                                    
-                                <p> As the co-founder of "Ur Skin" I am proud to have launched this beauty retailer using WordPress. <br> Our online shop offers a selection of premium skincare products designed to enhance beauty and skin health.</p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
+                                <h3 class="title mb-3"><a href="https://urskin.ir" target="_blank">Urskin - Online Beauty Retailer - www.urskin.ir</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> As the co-founder of "Ur Skin" I am proud to have launched this beauty retailer using WordPress. <br> Our online shop offers a selection of premium skincare products designed to enhance beauty and skin health.</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
 
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="https://omdepaz.ir" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="omdepaz.ir.png" alt="Omdepaz" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://omdepaz.ir" target="_blank">Omdepaz - Online food aggregator - www.omdepaz.ir</a></h3>
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://roynutfoods.com" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="roynutfoods.com.png" alt="Urskin" />
+                                    </a>
+                                </div>
                                 
-                            <div class="desc text-start">                                    
-                                <p> Omdepaz website has the possibility of ordering and reserve food online and it has been developed by Laravel (server side) and bootstrap, vue, jquery (client side).</p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
+                                <h3 class="title mb-3"><a href="https://roynutfoods.com" target="_blank">Roynuts Foods <br> wwww.roynutfoods.com</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> A UK-based wholesale distributor of nuts, seeds, and dried fruits. I contributed to the development of e-commerce features, improved order and customer management systems, and enhanced the admin panel for better business operations. I also managed server DevOps configurations, ensuring a secure and efficient infrastructure. </p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://boomvand.com" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="boomvand.com.png" alt="Urskin" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://boomvand.com" target="_blank">Boomvand <br> www.boomvand.com</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> A travel planning platform offering customized trips to southern Iran. I developed new features to enhance user experience, optimized trip management, and improved booking functionality. Additionally, I worked on the admin panel to streamline operations and handled server DevOps configurations to ensure stability and performance.</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://boom.jaaliink.ir" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="jaaliink.ir.png" alt="Urskin" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://boom.jaaliink.ir" target="_blank">Jalink <br> www.jaaliink.ir</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> A platform for accommodation managers to register and manage their properties, handle reservations, and oversee room bookings. I developed the full-featured admin panel, allowing managers to control their listings and view their accommodations on dedicated subdomains. I built both the frontend and backend using Laravel and Filament and NuxtJs, handling all deployments and server DevOps to ensure seamless performance.</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://soudehcakes.ir" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="soudehcakes.ir.png" alt="Urskin" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://soudehcakes.ir" target="_blank">Soudeh Cakes <br> www.soudehcakes.ir</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> An educational website dedicated to teaching cake baking techniques and recipes. I developed the site using WordPress, ensuring a user-friendly design for seamless navigation. The platform provides tutorials, step-by-step guides, and baking tips, making it easy for users to learn and improve their baking skills.</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://app.novaplatform.ir/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="novaplatform.ir.png" alt="Urskin" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://app.novaplatform.ir/" target="_blank">NovaPlatform <br> app.novaplatform.ir</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> An online marketplace for architectural and design products. I developed the Laravel backend, enabling efficient product management, secure transactions, and a seamless user experience. The platform includes an admin panel for streamlined operations and optimized server deployments for performance and security.</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://omdepaz.ir"  target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="omdepaz.ir.png" alt="Omdepaz" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://omdepaz.ir" target="_blank">Omdepaz - Online food aggregator <br> www.omdepaz.ir</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> Omdepaz website has the possibility of ordering and reserve food online and it has been developed by Laravel (server side) and bootstrap, vue, jquery (client side).</p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="customer_portal_sinaweb.png" alt="Customer Portal Sinaweb" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://sinaweb.net" target="_blank">Customer Portal - Sinaweb </a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> The customer portal has been developed by Laravel (server side) and bootstrap (client side).</p>
+                                    <p class="font-size-15">
+                                        Authentication - Support - Invoice and pre-invoice - Information - Management of services - Purchase and activation of a new service
+                                    </p>
+                                </div><!--//desc-->    
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="ojsplus.org.png" alt="Omdepaz" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">Open Journal Systems</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> Database of scientific journals of the Ministry of Health. <br> It has been developed by Laravel (server side) and bootstrap, jquery (client side).</p>
+                                </div><!--//desc-->    
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="health.png" alt="Omdepaz" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">Publications of the Ministry of Health</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> Database of scientific journals of the Ministry of Health. <br> It has been developed by Laravel (server side) and bootstrap, jquery (client side).</p>
+                                </div><!--//desc-->    
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="wiki_farsi.jpeg" alt="Wiki Farsi" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">Wiki Farsi - Persian version of mediawiki</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> The output of the project is the persianized version of mediawiki and also personalized with the requested contents. <br> It has been developed by mediawiki (open source).</p>
+                                </div><!--//desc-->    
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                            
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="work-in-progress.png" alt="SaaS Project" />
+                                    </a>
+                                    <!-- <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div> -->
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">Wisa - The perfect multi-tenancy management panel (SaaS) </a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15">Multi-tenancy means that a single instance of the software and its supporting infrastructure serves multiple customers. Each customer shares the software application and also shares a single database. Each tenant’s data is isolated and remains invisible to other tenants. <br> Additional details and features will be added soon...</p>
+                                </div><!--//desc-->  
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                            
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="chatgpt-ai-ir-project.png" alt="chatgpt-ai.ir" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://chatgpt-ai.ir" target="_blank"> Chatgpt-ai.ir - Sell chatgpt openai accounts </a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15">Sale and activation of chatgpt account with dedicated email server and fast sending of details to clinets. <br>
+                                        Dynamic website with support capabilities, sending dedicated email, payment gateway and email confirmation link.</p>
+                                </div><!--//desc-->  
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://www.vtiger.com/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="vtiger.png" alt="Vtiger" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://www.vtiger.com/" target="_blank">Vtiger (v.8)</a></h3>
+                                    
+                                <div class="desc text-start">     
+                                    <p class="font-size-15">Vtiger all-in-one CRM empowers you to align your marketing, sales and support teams with unified customer data powered by One View.</p>                               
+                                    <p class="font-size-15"> I added the Farsi language and right to left of the template as well as Jalali date to vtiger 8 crm. </p>
+                                </div><!--//desc--> 
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://www.iaamonline.org/" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="iaamonline.png" alt="Iaamonline" />
+                                    </a>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="https://www.iaamonline.org/" target="_blank">Iaamonline - International Association of Advanced Materials - IAAM | Non-Profit Organization</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15"> I recently upgraded the project to Laravel 10 and PHP 8, enhancing performance and security. Additionally, I implemented two-factor authentication using Google Authenticator and addressed existing security vulnerabilities. Currently, I am redesigning the admin panel and user portal with a new UI and adding advanced features to improve usability and functionality. </p>
+                                </div><!--//desc-->    
+                                <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+            
+
+                        <div class="col-md-6 p-relative">
+                            <div class="item featured text-center">
+                                <div class="featured-image has-ribbon">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="laravel-shop-project.png" alt="Laravel Shop Project" />
+                                    </a>
+                                    <!-- <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div> -->
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="#" target="_blank">Online Shop - Laravel responsive bootstrap online shop </a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p class="font-size-15">A Laravel-based online shop with Bootstrap frontend, featuring a professional admin panel, product management, best-selling & discounted product display, mobile authentication, Recaptcha, password reset, invoices, discount coupons, order search, product reviews, favorites, filtering, related products, comparisons, user panel, multi-address support, Google sign-in, role management, API integration, categories, tags, unlimited pages, and menu management.</p>
+                                </div><!--//desc-->   
+                            <hr class="divider divider-latest"/>
+                            </div><!--//item-->
+                        </div>
+
+
                         
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="customer_portal_sinaweb.png" alt="Customer Portal Sinaweb" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://sinaweb.net" target="_blank">Customer Portal - Sinaweb </a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p> The customer portal has been developed by Laravel (server side) and bootstrap (client side).</p>
-                                <p>
-                                    Modules and features:
-                                    <ul>
-                                        <li>Authentication</li>
-                                        <li>Dashboard</li>
-                                        <li>Support</li>
-                                        <li>Invoice and pre-invoice</li>
-                                        <li>Information</li>
-                                        <li>Management of services</li>
-                                        <li>Purchase and activation of a new service</li>
-                                    </ul>
-                                </p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
-
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="health.png" alt="Omdepaz" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="#" target="_blank">Publications of the Ministry of Health</a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p> Database of scientific journals of the Ministry of Health. <br> It has been developed by Laravel (server side) and bootstrap, jquery (client side).</p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
-
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="wiki_farsi.jpeg" alt="Wiki Farsi" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="#" target="_blank">Wiki Farsi - Persian version of mediawiki</a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p> The output of the project is the persianized version of mediawiki and also personalized with the requested contents. <br> It has been developed by mediawiki (open source).</p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
-                                           
-                        <div class="item featured text-center">
-                            
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="work-in-progress.png" alt="SaaS Project" />
-                                </a>
-                                <!-- <div class="ribbon">
-                                    <div class="text">New</div>
-                                </div> -->
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="#" target="_blank">Wisa - The perfect multi-tenancy management panel (SaaS) </a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p>Multi-tenancy means that a single instance of the software and its supporting infrastructure serves multiple customers. Each customer shares the software application and also shares a single database. Each tenant’s data is isolated and remains invisible to other tenants. <br> Additional details and features will be added soon...</p>
-                            </div><!--//desc-->         
-                        </div><!--//item-->
-                        <hr class="divider" />
-                        <div class="item featured text-center">
-                            
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="laravel-shop-project.png" alt="Laravel Shop Project" />
-                                </a>
-                                <!-- <div class="ribbon">
-                                    <div class="text">New</div>
-                                </div> -->
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="#" target="_blank">Online Shop - Laravel responsive bootstrap online shop </a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p>A complete online shop developed with Laravel (server side) and bootstrap (client side).</p>
-                                <p>
-                                    Project Features : 
-                                    <ul>
-                                        <li>Professional admin panel template</li>
-                                        <li>Professional shop template</li>
-                                        <li>Show best selling products, special products, special offers, discounted products</li>
-                                        <li>Mobile number verification authentication</li>
-                                        <li>Recaptcha</li>
-                                        <li>Password Reset</li>
-                                        <li>Invoice management</li>
-                                        <li>Using discount coupons provided by the site when shopping</li>
-                                        <li>Search products by name and defined categories</li>
-                                        <li>Repayment of failed orders for users</li>
-                                        <li>Scoring each product</li>
-                                        <li>Submit a comment</li>
-                                        <li>Adding products to your favorites list to buy them in future visits to the site</li>
-                                        <li>Filter the results based on the most visited and the best selling, the cheapest and the most expensive</li>
-                                        <li>Show related products</li>
-                                        <li>Compare products</li>
-                                        <li>User section panel to view order history, change password, edit favorites list, etc.</li>
-                                        <li>Ability to insert multiple addresses and manage addresses</li>
-                                        <li>Persian and english slug</li>
-                                        <li>Sign in with Google</li>
-                                        <li>Manage roles and permissions (ACL)</li>
-                                        <li>Get products with api</li>
-                                        <li>Product category</li>
-                                        <li>Product tags</li>
-                                        <li>Create unlimited pages (page maker)</li>
-                                        <li>Website menus management</li>
-                                        <li>Enable or disable the user</li>
-                                        <li>FAQ</li>
-                                        <li>Sweet Alert</li>
-                                        <li>And more....</li>
-                                    </ul>
-                                </p>
-
-                            </div><!--//desc-->         
-                        </div><!--//item-->
-                        <hr class="divider" />
-                        <div class="item featured text-center">
-                            
-                            <div class="featured-image has-ribbon">
-                                <a href="#" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="chatgpt-ai-ir-project.png" alt="chatgpt-ai.ir" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://chatgpt-ai.ir" target="_blank"> Chatgpt-ai.ir - Sell chatgpt openai accounts </a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p>Sale and activation of chatgpt account with dedicated email server and fast sending of details to clinets. <br>
-                                    Dynamic website with support capabilities, sending dedicated email, payment gateway and email confirmation link.</p>
-                            </div><!--//desc-->  
-                        <hr class="divider" />
-                        </div><!--//item-->
-
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="https://www.iaamonline.org/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="iaamonline.png" alt="Iaamonline" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://www.iaamonline.org/" target="_blank">Iaamonline - International Association of Advanced Materials - IAAM | Non-Profit Organization</a></h3>
-                                
-                            <div class="desc text-start">                                    
-                                <p> I just upgraded the project to Laravel 10 and PHP 8 and also implemented two-factor authentication by Google Authenticator and fixed its security issues. </p>
-                            </div><!--//desc-->    
-                        <hr class="divider" />
-                        </div><!--//item-->
-
-                        <div class="item featured text-center">
-                            <div class="featured-image has-ribbon">
-                                <a href="https://www.vtiger.com/" target="_blank">
-                                <img class="img-fluid project-image rounded shadow-sm" src="vtiger.png" alt="Vtiger" />
-                                </a>
-                            </div>
-                            
-                            <h3 class="title mb-3"><a href="https://www.vtiger.com/" target="_blank">Vtiger (v.8)</a></h3>
-                                
-                            <div class="desc text-start">     
-                                <p>Vtiger all-in-one CRM empowers you to align your marketing, sales and support teams with unified customer data powered by One View.</p>                               
-                                <p> I added the Farsi language and right to left of the template as well as Jalali date to vtiger 8 crm. </p>
-                            </div><!--//desc-->    
-                        </div><!--//item-->
 
                     </div><!--//content-->  
                 </div><!--//section-inner-->                
@@ -533,7 +617,7 @@
                 </div><!--//section-inner-->                 
             </section>
             
-            <div class="col-md-4 margin-top-mines-498 margin-top-mines-hidden">
+            <div class="col-md-4 margin-top-mines-213 margin-top-mines-hidden">
                 <aside class="languages aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Languages</h2>
