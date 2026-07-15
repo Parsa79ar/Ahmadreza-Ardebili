@@ -933,6 +933,10 @@ html[dir="rtl"] .project-kicker {
     grid-template-columns: 1fr;
   }
 
+  #about .split-section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   #about .section-copy {
     justify-self: stretch;
     max-width: none;
@@ -978,6 +982,11 @@ html[dir="rtl"] .project-kicker {
 
   .hero-copy h1 {
     font-size: 2.05rem;
+  }
+
+  #about .split-section h2 {
+    max-width: none;
+    font-size: 2rem;
   }
 
   .hero-proof {
