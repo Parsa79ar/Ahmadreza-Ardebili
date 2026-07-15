@@ -286,6 +286,10 @@ textarea {
   line-height: 1.02;
 }
 
+html[dir="rtl"] .hero-copy h1 {
+  line-height: 1.17;
+}
+
 .split-section h2,
 .torza-copy h2,
 .contact-card h2,
