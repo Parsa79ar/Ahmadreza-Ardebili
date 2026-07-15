@@ -722,8 +722,9 @@ html[dir="rtl"] .eyebrow {
   text-align: center;
   color: #fff;
   background:
-    radial-gradient(circle at 22% 14%, rgba(255, 255, 255, 0.22), transparent 24%),
-    linear-gradient(145deg, #178f9c 0%, #4f7d72 50%, #b56d39 100%);
+    radial-gradient(circle at 24% 18%, rgba(96, 165, 250, 0.34), transparent 28%),
+    radial-gradient(circle at 78% 78%, rgba(129, 140, 248, 0.32), transparent 32%),
+    linear-gradient(145deg, #0f172a 0%, #1e3a8a 42%, #6d28d9 72%, #312e81 100%);
 }
 
 .torza-visual span {
