@@ -1,701 +1,498 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <title>Parsa (Ahmadreza) Ardebili</title>
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ahmadreza Ardebili">
-    <meta name="author" content="Ahmadreza Ardebili">    
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    
-    <!-- FontAwesome JS -->
+    <meta name="description" content="Portfolio of Parsa (Ahmadreza) Ardebili, Senior Backend Engineer, Founder & CEO at Torza, and Laravel/PHP specialist.">
+    <meta name="author" content="Parsa (Ahmadreza) Ardebili">
+    <meta name="theme-color" content="#0f172a">
+    <title>Parsa (Ahmadreza) Ardebili | Senior Backend Engineer</title>
+
     <script defer src="all.js"></script>
-    
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css">  
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="github-calendar-responsive.css">
-    <!-- github activity css -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
-    <link rel="stylesheet" href="github-activity.css">
-
-    <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="styles.css">
-    
-</head> 
+</head>
 
-<body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">     
-	        <div class="row align-items-center">
-			    <div class="col">         
-		            <img class="profile-image img-fluid float-start rounded-circle" src="me.png" width="180" height="180"alt="ahmadreza ardebili" />
-		            <div class="profile-content">
-		                <h1 class="name">Parsa (Ahmadreza) Ardebili</h1>
-		                <h2 class="desc">Full Stack Web Developer (Backend - Frontend)</h2>   
-		                <ul class="social list-inline">
-		                    <li class="list-inline-item"><a href="https://github.com/Parsa79ar/"><i class="fab fa-github-alt"></i></a></li>    
-		                    <li class="list-inline-item"><a href="https://twitter.com/Parsadvlpr"><i class="fab fa-twitter"></i></a></li>
-		                    <li class="list-inline-item"><a href="https://linkedin.com/in/parsa-ardebili"><i class="fab fa-linkedin-in"></i></a></li>
-		                    <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>                  
-		                </ul> 
-		            </div><!--//profile-->
-			    </div><!--//col-->
-	            <div class="col-12 col-md-auto">
-		            <div class="dark-mode-switch d-flex">
-						<div class="form-check form-switch mx-auto mx-md-0">
-							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
-							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-						</div>
-			        </div><!--//dark-mode-switch-->
-	                <a class="btn btn-cta-secondary" href="https://t.me/parsa7994" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>
-	                <a class="btn btn-cta-primary" href="https://cv.ahmadreza-ardebili.ir" target="_blank"><i class="fas fa-file"></i> Persian CV</a>        
-	            </div><!--//col-->
-	        </div><!--//row-->         
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper py-5">
-        <div class="row">
-            
-            <section class="about section col-md-8">
-                <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">About Me</h2>
-                    <hr class="divider" />
-                    <div class="content">
-                        <p class="about-me-text">
-                            I'm Parsa (Ahamdreza) Ardebili, a passionate Full Stack Web Developer. <br>
-                             My journey in the world of code began during my university days, where I studied Computer Engineering. <br>
-                              Since then, I've been on an exciting adventure, crafting digital experiences and solving real-world problems. <br>
-                               I thrive on the versatility and power of PHP, love learning new things, and believe in fostering a positive team environment. <br>
-                               If you’d like to connect, feel free to email or text me. Let’s chat and explore exciting possibilities together.
-                        </p>
+<body class="no-motion">
+    <a class="skip-link" href="#home" data-i18n="skip_link">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Primary navigation">
+            <a class="brand-mark" href="#home" aria-label="Parsa Ardebili home">
+                <span class="brand-symbol">PA</span>
+                <span>
+                    <strong data-i18n="brand_name">Parsa Ardebili</strong>
+                    <small data-i18n="brand_role">Senior Backend Engineer</small>
+                </span>
+            </a>
+
+            <div class="nav-links" aria-label="Page sections">
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#experience" data-i18n="nav_experience">Experience</a>
+                <a href="#torza" data-i18n="nav_torza">Torza</a>
+                <a href="#projects" data-i18n="nav_projects">Projects</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="toggle-button" type="button" data-theme-toggle aria-label="Toggle color theme">
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                    <span data-i18n="theme_toggle">Theme</span>
+                </button>
+                <div class="language-switch" aria-label="Language switcher">
+                    <button class="lang-button is-active" type="button" data-lang="en">EN</button>
+                    <button class="lang-button" type="button" data-lang="fa">FA</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="hero section-pad">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow" data-i18n="hero_eyebrow">Senior Backend Engineer | Founder & CEO at Torza</p>
+                    <h1 data-i18n="hero_title">I design, build, and ship web products that stay clean under real business pressure.</h1>
+                    <p class="hero-text" data-i18n="hero_text">I am Parsa (Ahmadreza) Ardebili, a senior backend engineer and product-minded builder. I work across Laravel/PHP systems, APIs, admin platforms, DevOps workflows, and the product decisions that make software useful after launch.</p>
+                    <div class="hero-proof" aria-label="Professional highlights">
+                        <span><strong data-i18n="proof_backend">Backend-first</strong><small data-i18n="proof_backend_text">Laravel/PHP, APIs, databases</small></span>
+                        <span><strong data-i18n="proof_product">Product-minded</strong><small data-i18n="proof_product_text">Clarity, usability, ownership</small></span>
+                        <span><strong data-i18n="proof_delivery">Delivery-ready</strong><small data-i18n="proof_delivery_text">Docker, Kubernetes, DevOps</small></span>
                     </div>
-                </div>                
-            </section>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#contact">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            <span data-i18n="cta_contact">Contact me</span>
+                        </a>
+                        <a class="btn btn-secondary" href="#projects">
+                            <i class="fas fa-layer-group" aria-hidden="true"></i>
+                            <span data-i18n="cta_projects">View projects</span>
+                        </a>
+                        <a class="btn btn-ghost" href="https://cv.ahmadreza-ardebili.ir" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-alt" aria-hidden="true"></i>
+                            <span data-i18n="cta_cv">Persian CV</span>
+                        </a>
+                    </div>
+                    <div class="social-row" aria-label="Personal social links">
+                        <a href="https://github.com/Parsa79ar/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="https://linkedin.com/in/parsa-ardebili" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                        <a href="https://x.com/Parsadvlpr" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="mailto:parsa.ardebili@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                        <a href="https://t.me/parsa7994" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+                    </div>
+                </div>
 
-            <section class="experience section col-md-8">
-                <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">Work Experience</h2>
-                    <hr class="divider" />
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title">Full Stack Web Developer - <span class="place"><a href="https://www.sinaweb.net/">Sina web </a></span> <span class="year">(Jun 2023 - Present) .Part-time .Remote -</span><span class="place"><a href="https://www.sinaweb.net/" target="_blank"> www.sinaweb.net</a></span></h3>
-                        </div><!--//item-->
-                        <div class="item">
-                        <div class="item">
-                            <h3 class="title">Full Stack Web Developer - <span class="place"><a href="#">Islamic Parliament Research Center (IPRC) </a></span> <span class="year"><br>(July 2023 - August 2024) .Part-time .Remote - </span><span class="place"><a href="https://rc.majlis.ir" target="_blank"> www.rc.majlis.ir</a></span></h3>
-                        </div><!--//item-->
-                        <div class="item">
-                            <h3 class="title">Full Stack Web Developer - <span class="place"><a href="#">Oxin Rayan Arvand</a></span> <span class="year">(2020 - 2023) - </span><span class="place"><a href="https://smtz.ir" target="_blank"> www.smtz.ir</a></span></h3>
-                        </div><!--//item-->
-                        <div class="item">
-                            <h3 class="title">Backend Internship - <span class="place"><a href="#">Oxin Rayan Arvand</a></span> <span class="year">(2020 - 2021) - </span><span class="place"><a href="https://smtz.ir" target="_blank"> www.smtz.ir</a></span></h3>
-                        </div><!--//item-->
-                        <div class="item">
-                            <h3 class="title">Frontend Internship - <span class="place"><a href="#">Oxin Rayan Arvand</a></span> <span class="year">(2019 - 2020) - </span><span class="place"><a href="https://smtz.ir" target="_blank"> www.smtz.ir</a></span></h3>
-                        </div><!--//item-->
-                    </div><!--//content-->  
-                </div><!--//section-inner-->                 
-            </section>
-            
-            <div class="col-md-4 margin-top-mines-29 margin-top-mines-hidden">
-                <aside class="info aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-map-marker-alt"></i>Shiraz, Iran (Islamic Republic of)</li>
-                                <li><i class="fas fa-envelope"></i><a href="mailto:parsa.ardebili@gmail.com" target="_blank">parsa.ardebili@gmail.com</a></li>
-                                <li><i class="fab fa-github-alt"></i><a href="https://github.com/Parsa79ar/" target="_blank">https://github.com/Parsa79ar</a></li>
-                                <li><i class="fas fa-link"></i><a href="https://parsa-ardebili.ir" target="_blank">https://parsa-ardebili.ir</a></li>
-                            </ul>
-                        </div> 
-                    </div>                
-                </aside>
-
-                <aside class="skills aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Skills</h2>
-                        <hr class="divider" />
-                        <div class="content">
-                            <!-- <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Github profile so people can get more info there.</p> -->
-                            
-                            <div class="skillset">
-
-                                <div class="item">
-                                    <h3 class="level-title">Laravel (PHP Framework)<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="3 years experience in laravel (The PHP framework
-                                        for web artisans)"><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
-                                    </div><!--//level-bar-->                               
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">PHP<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in PHP for develope websites backend"><i class="fas fa-info-circle"></i>Advanced</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
-                                    </div><!--//level-bar-->                               
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in python"><i class="fas fa-info-circle"></i>Advanced</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; Vue.js &amp; jQuery<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in javascript and jQuery (ajax)"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 65%" aria-valuenow="65"  aria-valuemin="0" aria-valuemax="65"></div>
-                                    </div><!--//level-bar-->                                   
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">HTML &amp; CSS<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience"><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 95%" aria-valuenow="95"  aria-valuemin="0" aria-valuemax="95"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Bootstrap &amp; Flexbox<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience"><i class="fas fa-info-circle"></i>Advanced</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">LAMP/EMAIL Server<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="2 years experience"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 65%" aria-valuenow="65"  aria-valuemin="0" aria-valuemax="65"></div>
-                                    </div><!--//level-bar-->                                   
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">MySQL<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in MySQL"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 60%" aria-valuenow="60"  aria-valuemin="0" aria-valuemax="60"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Git &amp; GitHub<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="4 years experience in Git and GitHub"><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Docker<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="1 year experience in Docker"><i class="fas fa-info-circle"></i>Intermediate</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 60%" aria-valuenow="60"  aria-valuemin="0" aria-valuemax="60"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Object Oriented Programming<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="3 years experience in object oriented programming"><i class="fas fa-info-circle"></i>Advanced</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 80%" aria-valuenow="80"  aria-valuemin="0" aria-valuemax="80"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Selenium<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left" title="Selenium for test softwares"><i class="fas fa-info-circle"></i>Expert</span></h3>
-                                    <div class="level-bar progress">
-                                        <div class="progress-bar level-bar-inner" role="progressbar" style="width: 90%" aria-valuenow="90"  aria-valuemin="0" aria-valuemax="90"></div>
-                                    </div><!--//level-bar-->                                  
-                                </div><!--//item-->
-
-                                <!-- <p><a class="more-link" target="_blank" href="https://github.com/Parsa79ar/"><i class="fas fa-external-link-alt"></i>More on GitHub</a></p>  -->
-                            </div>              
-                        </div><!--//content--> 
-                        <hr class="divider" />
-                    </div><!--//section-inner-->                 
-                </aside>
-
-                <aside class="education aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Education</h2>
-                        <hr class="divider" />
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BCS.Eng </h3>
-                                <h4 class="university">Bachelor of Computer Software Engineering</h4>
-                                <h4 class="university">University of Hormozgan <span class="year">(2019-2024)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-
-                        <br>
-                        <h2 class="heading">Professional Certificates</h2>
-                        <hr class="divider" />
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-certificate"></i> Certification of Laravel Framework</h3>
-                                <h4 class="university">Toplearn institute-online course <span class="year">(2021-2022)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-certificate"></i> Certification of PHP MVC</h3>
-                                <h4 class="university">Toplearn institute-online course <span class="year">(2020-2021)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fas fa-certificate"></i> Certification of PHP</h3>
-                                <h4 class="university">Toplearn institute-online course <span class="year">(2019-2020)</span></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
+                <aside class="profile-panel" aria-label="Profile summary">
+                    <div class="profile-image-wrap">
+                        <img src="profile-hero.png" width="832" height="1248" alt="Portrait of Parsa Ahmadreza Ardebili in a developer workspace">
+                    </div>
+                    <div class="profile-card">
+                        <span class="availability-dot" aria-hidden="true"></span>
+                        <div>
+                            <strong data-i18n="profile_card_title">Available for focused web projects</strong>
+                            <p data-i18n="profile_card_text">Remote-friendly, product-minded, and comfortable from database to deployment.</p>
+                        </div>
+                    </div>
                 </aside>
             </div>
+        </section>
 
-            <section class="latest section col-md-8 margin-top-mines-52 margin-top-mines-hidden">
-                <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">Latest Projects</h2>
-                    <hr class="divider" style="margin-bottom: 25px;" />
-                    <div class="content row"> 
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://urskin.ir" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="urskin.ir.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://urskin.ir" target="_blank">Urskin - Online Beauty Retailer - www.urskin.ir</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> As the co-founder of "Ur Skin" I am proud to have launched this beauty retailer using WordPress. <br> Our online shop offers a selection of premium skincare products designed to enhance beauty and skin health.</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://roynutfoods.com" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="roynutfoods.com.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://roynutfoods.com" target="_blank">Roynuts Foods <br> wwww.roynutfoods.com</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> A UK-based wholesale distributor of nuts, seeds, and dried fruits. I contributed to the development of e-commerce features, improved order and customer management systems, and enhanced the admin panel for better business operations. I also managed server DevOps configurations, ensuring a secure and efficient infrastructure. </p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://boomvand.com" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="boomvand.com.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://boomvand.com" target="_blank">Boomvand <br> www.boomvand.com</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> A travel planning platform offering customized trips to southern Iran. I developed new features to enhance user experience, optimized trip management, and improved booking functionality. Additionally, I worked on the admin panel to streamline operations and handled server DevOps configurations to ensure stability and performance.</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://boom.jaaliink.ir" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="jaaliink.ir.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://boom.jaaliink.ir" target="_blank">Jalink <br> www.jaaliink.ir</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> A platform for accommodation managers to register and manage their properties, handle reservations, and oversee room bookings. I developed the full-featured admin panel, allowing managers to control their listings and view their accommodations on dedicated subdomains. I built both the frontend and backend using Laravel and Filament and NuxtJs, handling all deployments and server DevOps to ensure seamless performance.</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://soudehcakes.ir" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="soudehcakes.ir.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://soudehcakes.ir" target="_blank">Soudeh Cakes <br> www.soudehcakes.ir</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> An educational website dedicated to teaching cake baking techniques and recipes. I developed the site using WordPress, ensuring a user-friendly design for seamless navigation. The platform provides tutorials, step-by-step guides, and baking tips, making it easy for users to learn and improve their baking skills.</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://app.novaplatform.ir/" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="novaplatform.ir.png" alt="Urskin" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://app.novaplatform.ir/" target="_blank">NovaPlatform <br> app.novaplatform.ir</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> An online marketplace for architectural and design products. I developed the Laravel backend, enabling efficient product management, secure transactions, and a seamless user experience. The platform includes an admin panel for streamlined operations and optimized server deployments for performance and security.</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://omdepaz.ir"  target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="omdepaz.ir.png" alt="Omdepaz" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://omdepaz.ir" target="_blank">Omdepaz - Online food aggregator <br> www.omdepaz.ir</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> Omdepaz website has the possibility of ordering and reserve food online and it has been developed by Laravel (server side) and bootstrap, vue, jquery (client side).</p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="customer_portal_sinaweb.png" alt="Customer Portal Sinaweb" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://sinaweb.net" target="_blank">Customer Portal - Sinaweb </a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> The customer portal has been developed by Laravel (server side) and bootstrap (client side).</p>
-                                    <p class="font-size-15">
-                                        Authentication - Support - Invoice and pre-invoice - Information - Management of services - Purchase and activation of a new service
-                                    </p>
-                                </div><!--//desc-->    
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="ojsplus.org.png" alt="Omdepaz" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="#" target="_blank">Open Journal Systems</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> Database of scientific journals of the Ministry of Health. <br> It has been developed by Laravel (server side) and bootstrap, jquery (client side).</p>
-                                </div><!--//desc-->    
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="health.png" alt="Omdepaz" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="#" target="_blank">Publications of the Ministry of Health</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> Database of scientific journals of the Ministry of Health. <br> It has been developed by Laravel (server side) and bootstrap, jquery (client side).</p>
-                                </div><!--//desc-->    
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="wiki_farsi.jpeg" alt="Wiki Farsi" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="#" target="_blank">Wiki Farsi - Persian version of mediawiki</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> The output of the project is the persianized version of mediawiki and also personalized with the requested contents. <br> It has been developed by mediawiki (open source).</p>
-                                </div><!--//desc-->    
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                            
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="work-in-progress.png" alt="SaaS Project" />
-                                    </a>
-                                    <!-- <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div> -->
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="#" target="_blank">Wisa - The perfect multi-tenancy management panel (SaaS) </a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15">Multi-tenancy means that a single instance of the software and its supporting infrastructure serves multiple customers. Each customer shares the software application and also shares a single database. Each tenant’s data is isolated and remains invisible to other tenants. <br> Additional details and features will be added soon...</p>
-                                </div><!--//desc-->  
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                            
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="chatgpt-ai-ir-project.png" alt="chatgpt-ai.ir" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://chatgpt-ai.ir" target="_blank"> Chatgpt-ai.ir - Sell chatgpt openai accounts </a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15">Sale and activation of chatgpt account with dedicated email server and fast sending of details to clinets. <br>
-                                        Dynamic website with support capabilities, sending dedicated email, payment gateway and email confirmation link.</p>
-                                </div><!--//desc-->  
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://www.vtiger.com/" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="vtiger.png" alt="Vtiger" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://www.vtiger.com/" target="_blank">Vtiger (v.8)</a></h3>
-                                    
-                                <div class="desc text-start">     
-                                    <p class="font-size-15">Vtiger all-in-one CRM empowers you to align your marketing, sales and support teams with unified customer data powered by One View.</p>                               
-                                    <p class="font-size-15"> I added the Farsi language and right to left of the template as well as Jalali date to vtiger 8 crm. </p>
-                                </div><!--//desc--> 
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://www.iaamonline.org/" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="iaamonline.png" alt="Iaamonline" />
-                                    </a>
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="https://www.iaamonline.org/" target="_blank">Iaamonline - International Association of Advanced Materials - IAAM | Non-Profit Organization</a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15"> I recently upgraded the project to Laravel 10 and PHP 8, enhancing performance and security. Additionally, I implemented two-factor authentication using Google Authenticator and addressed existing security vulnerabilities. Currently, I am redesigning the admin panel and user portal with a new UI and adding advanced features to improve usability and functionality. </p>
-                                </div><!--//desc-->    
-                                <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-            
-
-                        <div class="col-md-6 p-relative">
-                            <div class="item featured text-center">
-                                <div class="featured-image has-ribbon">
-                                    <a href="#" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="laravel-shop-project.png" alt="Laravel Shop Project" />
-                                    </a>
-                                    <!-- <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div> -->
-                                </div>
-                                
-                                <h3 class="title mb-3"><a href="#" target="_blank">Online Shop - Laravel responsive bootstrap online shop </a></h3>
-                                    
-                                <div class="desc text-start">                                    
-                                    <p class="font-size-15">A Laravel-based online shop with Bootstrap frontend, featuring a professional admin panel, product management, best-selling & discounted product display, mobile authentication, Recaptcha, password reset, invoices, discount coupons, order search, product reviews, favorites, filtering, related products, comparisons, user panel, multi-address support, Google sign-in, role management, API integration, categories, tags, unlimited pages, and menu management.</p>
-                                </div><!--//desc-->   
-                            <hr class="divider divider-latest"/>
-                            </div><!--//item-->
-                        </div>
-
-
-                        
-
-                    </div><!--//content-->  
-                </div><!--//section-inner-->                
-            </section>
-
-            <section class="projects section col-md-8">
-                <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">Other Projects</h2>
-                    <hr class="divider" />
-                    <div class="content">
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/Website-login-register-stress-test-selenium-python" target="_blank">Website Stress Test with Selenium</a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">Selenium stress test for website login and register pages with fake users that loads from excel file.<br>
-                                With many options, you can perform login or registration operations at the same time, or increase or decrease the number of users, the number of users is randomly selected and sent to the website, and at the end it displays the page loading time and the response time.
-                            </p>
-                            <p><a class="more-link" href="https://github.com/Parsa79ar/Website-login-register-stress-test-selenium-python/archive/refs/heads/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/Python-TrafficLight-Management-System" target="_blank">Traffic Light Management System</a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">This project was developed for the data structure course at the university <br>
-                                The programming languages ​​used in this project are Python and Tkinter and the data structures are developed with Python.</p>
-                            <p><a class="more-link" href="https://github.com/Parsa79ar/Python-TrafficLight-Management-System/archive/refs/heads/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/telegram-python-bot" target="_blank">Simple Telegram Bot</a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">This robot is developed with Python and one of its capabilities is to connect to Telegram with api and by joining groups and channels to check or save members' messages, or by developing it, other capabilities can be added to it.</p>
-                            <p><a class="more-link" href="https://github.com/Parsa79ar/telegram-python-bot/archive/refs/heads/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/Docker-php-mysql-apache-phpmyadmin" target="_blank">Docker Local Envirement </a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">Docker local envirement for install and config PHP, MYSQL, Apache and phpmyadmin</p>
-                            <p><a class="more-link" href="https://github.com/Parsa79ar/Docker-php-mysql-apache-phpmyadmin/archive/refs/heads/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/bounty-targets-data-crawler-python" target="_blank">Python Crawler </a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">Python crawler for get domains and wildcards domains from bounty-targets-data repository and send new data to telegram chat or channel etc.</p>
-                            <p><a class="more-link" href="https://github.com/Parsa79ar/bounty-targets-data-crawler-python/archive/refs/heads/master.zip" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="title"><a href="https://github.com/Parsa79ar/telegram-python-bot" target="_blank">Laravel Knowledge Challenges on GitHub</a> <span class="badge badge-theme">Free</span></h3>
-                            <p class="summary">
-                                <ul>
-                                    <li>
-                                        <a href="https://github.com/Parsa79ar/Laravel-Challenge-Cleanup-Routes">Laravel Challenge Cleanup Routes</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/Parsa79ar/Laravel-Challenge-ManyToMany-Olympics">Laravel Challenge ManyToMany Olympics</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/Parsa79ar/Laravel-Challenge-Movie-Table-Eloquent">Laravel Challenge Movie Table Eloquent</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/Parsa79ar/Laravel-Challenge-Route-Model-Binding">Laravel Challenge Route Model Binding</a>
-                                    </li>
-                                </ul>
-                            </p>
-                        </div><!--//item-->
-                        
-                        <a class="btn btn-cta-secondary" href="https://github.com/Parsa79ar" target="_blank">More on GitHub <i class="fas fa-chevron-right pt-1"></i></a>
-                        
-                    </div><!--//content-->  
-                </div><!--//section-inner-->                 
-            </section>
-            
-            <div class="col-md-4 margin-top-mines-213 margin-top-mines-hidden">
-                <aside class="languages aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Languages</h2>
-                        <hr class="divider" />
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Persian:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Deutsch:</strong></span>
-                                    <span class="level">Basic Communication <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside>
-                
-                <aside class="list music aside section">
-                    <div class="section-inner shadow-sm rounded">
-                        <h2 class="heading">Hobbies & Interests</h2>
-                        <hr class="divider" />
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-comments"></i>New Features in Programming Communities</li>
-                                <li><i class="fas fa-book-open"></i>Reading Books</li>
-                                <li><i class="fas fa-music"></i>Listening to Music</li>
-                                <li><i class="fas fa-hiking"></i>Mountain Climbing</li>
-                                <li><i class="fas fa-dumbbell"></i>Body building</li>
-                                <li><i class="fas fa-gamepad"></i>Video Games</li>
-                                <li><i class="fas fa-language"></i>Languages</li>
-                                <li><i class="fas fa-solar-panel"></i>Solar Energy</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside>
+        <section id="snapshot" class="section-pad compact-pad">
+            <div class="container snapshot-grid">
+                <article class="stat-card">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <span data-i18n="stat_location_label">Location</span>
+                    <strong data-i18n="stat_location_value">Shiraz, Iran</strong>
+                </article>
+                <article class="stat-card">
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                    <span data-i18n="stat_stack_label">Core stack</span>
+                    <strong data-i18n="stat_stack_value">Laravel, PHP, Docker, Kubernetes</strong>
+                </article>
+                <article class="stat-card">
+                    <i class="fas fa-server" aria-hidden="true"></i>
+                    <span data-i18n="stat_delivery_label">Delivery</span>
+                    <strong data-i18n="stat_delivery_value">Backend, APIs, DevOps</strong>
+                </article>
+                <article class="stat-card">
+                    <i class="fas fa-language" aria-hidden="true"></i>
+                    <span data-i18n="stat_languages_label">Languages</span>
+                    <strong data-i18n="stat_languages_value">Persian, English, basic German</strong>
+                </article>
             </div>
-            
-            <section class="github section col-md-8">
-                <div class="section-inner shadow-sm rounded">
-                    <h2 class="heading">My GitHub</h2>
-                    <hr class="divider" />
-                    <p><a href="https://github.com/Parsa79ar/" target="_blank">Parsa79ar</a></p>
+        </section>
 
-                    <p><a href="https://github.com/Parsa79ar/" target="_blank">Activities</a></p>       
-                    <div id="ghfeed" class="ghfeed">
-                    </div><!--//ghfeed-->
-                    
-                </div><!--//secton-inner-->
-            </section>
-            
+        <section id="about" class="section-pad">
+            <div class="container split-section">
+                <div>
+                    <p class="eyebrow" data-i18n="about_eyebrow">About</p>
+                    <h2 data-i18n="about_title">Backend depth, DevOps awareness, and product clarity in one practical delivery flow.</h2>
+                </div>
+                <div class="section-copy">
+                    <p data-i18n="about_p1">I earned my bachelor's degree in Computer Software Engineering from Hormozgan University and I am currently studying for a master's degree at Islamic Azad University. Along the way, my work has grown through production systems, client products, admin panels, e-commerce, automation, localization, and infrastructure work.</p>
+                    <p data-i18n="about_p2">My strongest area is backend engineering with Laravel/PHP, but I am most valuable where architecture, Docker/Kubernetes-based delivery, practical interfaces, and product thinking meet. Through Torza, I also lead software work, technical content, and long-term product direction.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-pad section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="experience_eyebrow">Experience</p>
+                    <h2 data-i18n="experience_title">Work shaped by production systems, remote collaboration, and product ownership.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_torza_date">Jun 2025 - Present</span>
+                            <a href="https://torza.ir" target="_blank" rel="noopener noreferrer">torza.ir</a>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_torza_title">Founder & CEO - Torza</h3>
+                            <p data-i18n="exp_torza_text">Leading Torza as a focused company of developers and product thinkers building clean, scalable, user-friendly software and Torza Mag.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_myrefah_date">Jul 2023 - Aug 2024</span>
+                            <span>Myrefah | Refah</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_myrefah_title">Senior Backend Engineer - Myrefah | Refah</h3>
+                            <p data-i18n="exp_myrefah_text">Part-time remote backend work on a procurement management system covering requests, ordering, inventory, procurement documents, supplier payment scheduling, and automated supply workflows.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_sinaweb_date">Jun 2023 - Present</span>
+                            <a href="https://www.sinaweb.net/" target="_blank" rel="noopener noreferrer">sinaweb.net</a>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_sinaweb_title">Full Stack Web Developer - Sinaweb</h3>
+                            <p data-i18n="exp_sinaweb_text">Part-time remote development across Laravel systems, customer portals, admin workflows, and service management features.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_oxin_date">Jan 2021 - Jan 2023</span>
+                            <a href="https://smtz.ir" target="_blank" rel="noopener noreferrer">smtz.ir</a>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_oxin_title">Full Stack Web Developer - Oxin Rayan Arvand</h3>
+                            <p data-i18n="exp_oxin_text">Developed and maintained web projects, admin panels, frontend features, and backend workflows after frontend and backend internships.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_backend_intern_date">Jan 2020 - Jan 2021</span>
+                            <a href="https://smtz.ir" target="_blank" rel="noopener noreferrer">smtz.ir</a>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_backend_intern_title">Backend Internship - Oxin Rayan Arvand</h3>
+                            <p data-i18n="exp_backend_intern_text">Built backend foundations through PHP/Laravel patterns, database work, and team-based delivery.</p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-meta">
+                            <span data-i18n="exp_frontend_intern_date">Nov 2019 - Jan 2020</span>
+                            <a href="https://smtz.ir" target="_blank" rel="noopener noreferrer">smtz.ir</a>
+                        </div>
+                        <div class="timeline-content">
+                            <h3 data-i18n="exp_frontend_intern_title">Frontend Internship - Oxin Rayan Arvand</h3>
+                            <p data-i18n="exp_frontend_intern_text">Started production web work through frontend implementation, UI details, and practical client-facing pages.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="torza" class="section-pad torza-section">
+            <div class="container torza-grid">
+                <div class="torza-copy">
+                    <p class="eyebrow" data-i18n="torza_eyebrow">Company</p>
+                    <h2 data-i18n="torza_title">Torza is a focused team of developers and product thinkers.</h2>
+                    <p data-i18n="torza_text">We care deeply about brainstorming, clarity, usability, and long-term value. Whether we are developing Torza products like XaltO, publishing Torza Mag as the company's technology magazine, or delivering tailored software for forward-thinking teams, we keep things clean, scalable, and user-friendly.</p>
+                    <div class="torza-services">
+                        <span data-i18n="torza_service_xalto">XaltO product</span>
+                        <span data-i18n="torza_service_web">Web development</span>
+                        <span data-i18n="torza_service_mobile">Mobile apps</span>
+                        <span data-i18n="torza_service_cloud">Cloud & DevOps</span>
+                        <span data-i18n="torza_service_ai">AI integration</span>
+                        <span data-i18n="torza_service_mag">Torza Mag publication</span>
+                    </div>
+                </div>
+                <div class="link-board">
+                    <a href="https://torza.ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-globe" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_site">Torza website</span>
+                    </a>
+                    <a href="https://mag.torza.ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-newspaper" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_mag">Torza Mag</span>
+                    </a>
+                    <a href="https://xalto.ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-cubes" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_xalto">XaltO</span>
+                    </a>
+                    <a href="https://instagram.com/mag.torza.ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_instagram">Mag Instagram</span>
+                    </a>
+                    <a href="https://t.me/torza_mag" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_telegram">Mag Telegram</span>
+                    </a>
+                    <a href="https://youtube.com/@Torza_mag" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_youtube">Mag YouTube</span>
+                    </a>
+                    <a href="https://ble.ir/torza_mag" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-comment-dots" aria-hidden="true"></i>
+                        <span data-i18n="torza_link_bale">Mag Bale</span>
+                    </a>
+                    <a href="https://github.com/torza-ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://x.com/torza_ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span>X / Twitter</span>
+                    </a>
+                    <a href="https://linkedin.com/company/torza-ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="mailto:info@torza.ir" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>info@torza.ir</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-pad">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="projects_eyebrow">Featured projects</p>
+                    <h2 data-i18n="projects_title">Selected work with clearer roles, outcomes, and technology choices.</h2>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card project-card-featured">
+                        <div class="project-visual torza-visual" aria-hidden="true">
+                            <span>Torza</span>
+                            <small>Software Company + Mag</small>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_company">Company + Publication</span>
+                            <h3 data-i18n="project_torza_title">Torza Company</h3>
+                            <p data-i18n="project_torza_text">A focused software company building its own products, tailored software, and Torza Mag as the company's official technology/code magazine.</p>
+                            <p class="project-role" data-i18n="project_torza_role">Role: Founder & CEO, backend/product direction, software delivery.</p>
+                            <a href="https://torza.ir" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual xalto-visual" aria-hidden="true">
+                            <span>XaltO</span>
+                            <small>Business Management Platform</small>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_product">Torza Product</span>
+                            <h3 data-i18n="project_xalto_title">XaltO</h3>
+                            <p data-i18n="project_xalto_text">An intelligent integrated business management platform for accounting, inventory, finance, HR, sales, payments, shipping, and customer management.</p>
+                            <p class="project-role" data-i18n="project_xalto_role">Role: infrastructure, product and team management, system architecture, and automation design.</p>
+                            <a href="https://xalto.ir" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="jaaliink.ir.png" alt="Jalink accommodation management platform screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_platform">Management Platform</span>
+                            <h3 data-i18n="project_jalink_title">Jalink</h3>
+                            <p data-i18n="project_jalink_text">A platform for accommodation managers to register properties, manage reservations, and publish dedicated subdomain pages.</p>
+                            <p class="project-role" data-i18n="project_jalink_role">Role: Full stack development, admin panel, deployment.</p>
+                            <div class="tags"><span>Laravel</span><span>Filament</span><span>Nuxt.js</span><span>DevOps</span></div>
+                            <a href="https://boom.jaaliink.ir" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="boomvand.com.png" alt="Boomvand travel planning platform screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_travel">Travel Product</span>
+                            <h3 data-i18n="project_boomvand_title">Boomvand</h3>
+                            <p data-i18n="project_boomvand_text">A travel planning platform for customized southern Iran trips, booking flows, trip management, and operations tooling.</p>
+                            <p class="project-role" data-i18n="project_boomvand_role">Role: Feature development, admin improvements, DevOps.</p>
+                            <div class="tags"><span>Laravel</span><span>Booking</span><span>Admin</span></div>
+                            <a href="https://boomvand.com" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="roynutfoods.com.png" alt="Roynut Foods wholesale e-commerce website screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_commerce">E-commerce Operations</span>
+                            <h3 data-i18n="project_roynut_title">Roynut Foods</h3>
+                            <p data-i18n="project_roynut_text">A UK-based wholesale e-commerce experience for nuts, seeds, and dried fruits with improved customer and order operations.</p>
+                            <p class="project-role" data-i18n="project_roynut_role">Role: E-commerce features, admin improvements, server configuration.</p>
+                            <div class="tags"><span>E-commerce</span><span>Operations</span><span>DevOps</span></div>
+                            <a href="https://roynutfoods.com" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="urskin.ir.png" alt="Urskin online beauty retailer screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_commerce">E-commerce Operations</span>
+                            <h3 data-i18n="project_urskin_title">Urskin</h3>
+                            <p data-i18n="project_urskin_text">An online beauty retailer for skincare products, built to support product discovery and simple shopping flows.</p>
+                            <p class="project-role" data-i18n="project_urskin_role">Role: Co-founder, website launch, store setup.</p>
+                            <div class="tags"><span>WordPress</span><span>E-commerce</span><span>Brand</span></div>
+                            <a href="https://urskin.ir" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="novaplatform.ir.png" alt="NovaPlatform marketplace screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_marketplace">Marketplace</span>
+                            <h3 data-i18n="project_nova_title">NovaPlatform</h3>
+                            <p data-i18n="project_nova_text">A marketplace for architectural and design products with product management, transactions, and optimized deployments.</p>
+                            <p class="project-role" data-i18n="project_nova_role">Role: Laravel backend, admin workflows, deployment.</p>
+                            <div class="tags"><span>Laravel</span><span>Marketplace</span><span>MySQL</span></div>
+                            <a href="https://app.novaplatform.ir/" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="customer_portal_sinaweb.png" alt="Sinaweb customer portal screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_portal">Customer Portal</span>
+                            <h3 data-i18n="project_sina_title">Sinaweb Customer Portal</h3>
+                            <p data-i18n="project_sina_text">A customer portal for authentication, support, invoices, service management, and service activation workflows.</p>
+                            <p class="project-role" data-i18n="project_sina_role">Role: Laravel backend and Bootstrap frontend development.</p>
+                            <div class="tags"><span>Laravel</span><span>Bootstrap</span><span>Portal</span></div>
+                            <a href="https://sinaweb.net" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="iaamonline.png" alt="IAAM Online platform screenshot" loading="lazy">
+                        <div class="project-content">
+                            <span class="project-kicker" data-i18n="project_cat_security">Upgrade + Security</span>
+                            <h3 data-i18n="project_iaam_title">IAAM Online</h3>
+                            <p data-i18n="project_iaam_text">Upgrade and security work for an international non-profit platform, including Laravel/PHP modernization and two-factor authentication.</p>
+                            <p class="project-role" data-i18n="project_iaam_role">Role: Upgrade, security hardening, portal redesign work.</p>
+                            <div class="tags"><span>Laravel 10</span><span>PHP 8</span><span>2FA</span></div>
+                            <a href="https://www.iaamonline.org/" target="_blank" rel="noopener noreferrer" data-i18n="project_visit">Visit project</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-pad section-muted">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow" data-i18n="skills_eyebrow">Skills</p>
+                    <h2 data-i18n="skills_title">A practical stack for shipping and maintaining web products.</h2>
+                </div>
+
+                <div class="skill-grid">
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_backend">Backend</h3>
+                        <div class="tags"><span>PHP</span><span>Laravel</span><span>REST APIs</span><span>MVC</span><span>OOP</span></div>
+                    </article>
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_frontend">Frontend</h3>
+                        <div class="tags"><span>JavaScript</span><span>Vue.js</span><span>Nuxt.js</span><span>jQuery</span><span>Bootstrap</span><span>HTML/CSS</span></div>
+                    </article>
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_data">Database</h3>
+                        <div class="tags"><span>MySQL</span><span>Schema design</span><span>Data modeling</span></div>
+                    </article>
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_devops">DevOps</h3>
+                        <div class="tags"><span>Docker</span><span>Kubernetes</span><span>LAMP</span><span>Deployments</span><span>Email servers</span><span>Arvan DevOps certificates</span></div>
+                    </article>
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_tools">Tools</h3>
+                        <div class="tags"><span>Git</span><span>GitHub</span><span>Selenium</span><span>Automation</span></div>
+                    </article>
+                    <article class="skill-group">
+                        <h3 data-i18n="skill_product">Product & UI</h3>
+                        <div class="tags"><span>Admin panels</span><span>E-commerce</span><span>RTL</span><span>Localization</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="opensource" class="section-pad">
+            <div class="container split-section">
+                <div>
+                    <p class="eyebrow" data-i18n="opensource_eyebrow">Open source</p>
+                    <h2 data-i18n="opensource_title">Small tools, experiments, and learning projects on GitHub.</h2>
+                    <a class="inline-link" href="https://github.com/Parsa79ar" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span data-i18n="opensource_github">More on GitHub</span>
+                    </a>
+                </div>
+
+                <div class="repo-list" id="ghfeed">
+                    <a href="https://github.com/Parsa79ar/Website-login-register-stress-test-selenium-python" target="_blank" rel="noopener noreferrer" data-i18n="repo_stress">Website Stress Test with Selenium</a>
+                    <a href="https://github.com/Parsa79ar/Python-TrafficLight-Management-System" target="_blank" rel="noopener noreferrer" data-i18n="repo_traffic">Traffic Light Management System</a>
+                    <a href="https://github.com/Parsa79ar/telegram-python-bot" target="_blank" rel="noopener noreferrer" data-i18n="repo_telegram">Telegram Python Bot</a>
+                    <a href="https://github.com/Parsa79ar/Docker-php-mysql-apache-phpmyadmin" target="_blank" rel="noopener noreferrer" data-i18n="repo_docker">Docker PHP/MySQL/Apache Environment</a>
+                    <a href="https://github.com/Parsa79ar/bounty-targets-data-crawler-python" target="_blank" rel="noopener noreferrer" data-i18n="repo_crawler">Bounty Target Data Crawler</a>
+                    <a href="https://github.com/Parsa79ar/Laravel-Challenge-Cleanup-Routes" target="_blank" rel="noopener noreferrer" data-i18n="repo_laravel">Laravel Knowledge Challenges</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-pad contact-section">
+            <div class="container contact-card">
+                <p class="eyebrow" data-i18n="contact_eyebrow">Contact</p>
+                <h2 data-i18n="contact_title">Have a practical web product, admin panel, or automation idea?</h2>
+                <p data-i18n="contact_text">Send a message and I will be happy to talk through the scope, tradeoffs, and best path to build it well.</p>
+                <div class="contact-actions">
+                    <a class="btn btn-primary" href="mailto:parsa.ardebili@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>parsa.ardebili@gmail.com</span>
+                    </a>
+                    <a class="btn btn-secondary" href="https://t.me/parsa7994" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                        <span>Telegram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <strong data-i18n="footer_name">Parsa (Ahmadreza) Ardebili</strong>
+                <p data-i18n="footer_text">Senior backend engineer, Laravel/PHP specialist, and Founder & CEO at Torza.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://parsa-ardebili.ir" target="_blank" rel="noopener noreferrer" data-i18n="footer_site">Website</a>
+                <a href="https://github.com/Parsa79ar/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/parsa-ardebili" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://torza.ir" target="_blank" rel="noopener noreferrer">Torza</a>
+                <a href="https://xalto.ir" target="_blank" rel="noopener noreferrer">XaltO</a>
+                <a href="https://mag.torza.ir" target="_blank" rel="noopener noreferrer">Torza Mag</a>
+            </div>
         </div>
-  
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <small class="copyright">Designed by: Ahmadreza Ardebili</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="popper.min.js"></script> 
-    <script type="text/javascript" src="bootstrap.min.js"></script>    
-    <script type="text/javascript" src="rss.global.min.js"></script> 
-    <script type="text/javascript" src="dark-mode-switch.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="main.js"></script>            
+    </footer>
+
+    <script src="main.js"></script>
 </body>
-</html> 
+</html>
